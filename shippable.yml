@@ -6,9 +6,8 @@ node_js:
   - 0.12   
 
 env:
-  
-    - foo=bar BAR=FOO
-    - goo=too TOO=GOO
+  - foo=bar BAR=FOO
+  - goo=too TOO=GOO
       
 
   matrix:
