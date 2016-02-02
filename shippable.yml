@@ -8,7 +8,7 @@ node_js:
 env:
   global:
     - foo=bar
-    - BAR=FOO
+      BAR=FOO
 
   matrix:
     - M1=ONE
