@@ -31,8 +31,8 @@ build:
     - echo "$goo"
     - echo "$TOO"
 
-  #post_ci:
-   # - docker push shippabledocker/hitchcock4_sample_node
+  post_ci:
+   - docker push shippabledocker/hitchcock4_sample_node
 
 integrations:
   hub:
