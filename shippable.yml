@@ -10,15 +10,15 @@ env:
   - goo=too TOO=GOO
       
 
-  matrix:
-    - M1=ONE
+  #matrix:
+   # - M1=ONE
 
 build:
  # pre_ci:
   #  - docker build -t=shippabledocker/hitchcock4_sample_node .
 
   pre_ci_boot:
-    image_name: drydock/u12nod
+    image_name: drydock/u12nodpls
     image_tag: tip
     pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
