@@ -27,7 +27,7 @@ build:
     - ps -eax
     - ls -al
     - echo "$foo"
-    - echo "$BAR"
+    - echo "$BAR"  
     - echo "$goo"
     - echo "$TOO"
 
