@@ -8,6 +8,7 @@ node_js:
 env:
   
     - foo=bar BAR=FOO
+    - goo=too TOO=GOO
       
 
   matrix:
